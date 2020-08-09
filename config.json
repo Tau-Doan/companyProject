@@ -1,0 +1,132 @@
+{
+  "StreamConfig": {},
+  "State": {
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "RemovalInProgress": false,
+    "Dead": false,
+    "Pid": 4701,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2020-05-22T03:01:35.801470402Z",
+    "FinishedAt": "0001-01-01T00:00:00Z",
+    "Health": null
+  },
+  "ID": "b04b0983a7ca351a4dbb79c96470cc6fc5e9b17f32951584d1b2aa741675a754",
+  "Created": "2020-05-22T03:01:35.486449817Z",
+  "Managed": false,
+  "Path": "bin/docker-startup.sh",
+  "Args": [],
+  "Config": {
+    "Hostname": "b5a95a5f719f",
+    "Domainname": "",
+    "User": "",
+    "AttachStdin": false,
+    "AttachStdout": false,
+    "AttachStderr": false,
+    "ExposedPorts": {
+      "8848/tcp": {}
+    },
+    "Tty": false,
+    "OpenStdin": false,
+    "StdinOnce": false,
+    "Env": [
+      "MYSQL_SERVICE_PASSWORD=huyouni.",
+      "MYSQL_SERVICE_DB_NAME=ry-config",
+      "MODE=standalone",
+      "SPRING_DATASOURCE_PLATFORM=mysql",
+      "MYSQL_SERVICE_HOST=172.17.0.2",
+      "MYSQL_SERVICE_PORT=3306",
+      "MYSQL_SERVICE_USER=root",
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "PREFER_HOST_MODE=ip",
+      "BASE_DIR=/home/nacos",
+      "CLASSPATH=.:/home/nacos/conf:",
+      "CLUSTER_CONF=/home/nacos/conf/cluster.conf",
+      "FUNCTION_MODE=all",
+      "JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk",
+      "NACOS_USER=nacos",
+      "JAVA=/usr/lib/jvm/java-1.8.0-openjdk/bin/java",
+      "JVM_XMS=2g",
+      "JVM_XMX=2g",
+      "JVM_XMN=1g",
+      "JVM_MS=128m",
+      "JVM_MMS=320m",
+      "NACOS_DEBUG=n",
+      "TOMCAT_ACCESSLOG_ENABLED=false",
+      "TIME_ZONE=Asia/Shanghai"
+    ],
+    "Cmd": null,
+    "Image": "nacos/nacos-server",
+    "Volumes": null,
+    "WorkingDir": "/home/nacos",
+    "Entrypoint": [
+      "bin/docker-startup.sh"
+    ],
+    "OnBuild": null,
+    "Labels": {
+      "org.label-schema.schema-version": "= 1.0     org.label-schema.name=CentOS Base Image     org.label-schema.vendor=CentOS     org.label-schema.license=GPLv2     org.label-schema.build-date=20180531"
+    }
+  },
+  "Image": "sha256:d00c5635282563489e3ddd920ef8929b6dd7600d90d52cd2853acd457e15841a",
+  "NetworkSettings": {
+    "Bridge": "",
+    "SandboxID": "43021ca1c18b7703ecaa1ba9f36638764a865e7cb54c5e23035a8ad47935327b",
+    "HairpinMode": false,
+    "LinkLocalIPv6Address": "",
+    "LinkLocalIPv6PrefixLen": 0,
+    "Networks": {
+      "bridge": {
+        "IPAMConfig": null,
+        "Links": null,
+        "Aliases": [],
+        "NetworkID": "125559eb680b6c6e64b9b2dcb94e791f23493f84898b4b1781bc64147c4f97d0",
+        "EndpointID": "7d7c1677e807fe3acdd61287113f9eb8dddd44c33bf7f6514053c2c99e2d4b2c",
+        "Gateway": "172.17.0.1",
+        "IPAddress": "172.17.0.3",
+        "IPPrefixLen": 16,
+        "IPv6Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "MacAddress": "02:42:ac:11:00:03",
+        "DriverOpts": null,
+        "IPAMOperational": false
+      }
+    },
+    "Service": null,
+    "Ports": {
+      "8848/tcp": [
+        {
+          "HostIp": "0.0.0.0",
+          "HostPort": "8848"
+        }
+      ]
+    },
+    "SandboxKey": "/var/run/docker/netns/43021ca1c18b",
+    "SecondaryIPAddresses": null,
+    "SecondaryIPv6Addresses": null,
+    "IsAnonymousEndpoint": false,
+    "HasSwarmEndpoint": false
+  },
+  "LogPath": "/var/lib/docker/containers/b04b0983a7ca351a4dbb79c96470cc6fc5e9b17f32951584d1b2aa741675a754/b04b0983a7ca351a4dbb79c96470cc6fc5e9b17f32951584d1b2aa741675a754-json.log",
+  "Name": "/nacos",
+  "Driver": "overlay2",
+  "OS": "linux",
+  "MountLabel": "",
+  "ProcessLabel": "",
+  "RestartCount": 0,
+  "HasBeenStartedBefore": true,
+  "HasBeenManuallyStopped": false,
+  "MountPoints": {},
+  "SecretReferences": null,
+  "ConfigReferences": null,
+  "AppArmorProfile": "",
+  "HostnamePath": "/var/lib/docker/containers/b04b0983a7ca351a4dbb79c96470cc6fc5e9b17f32951584d1b2aa741675a754/hostname",
+  "HostsPath": "/var/lib/docker/containers/b04b0983a7ca351a4dbb79c96470cc6fc5e9b17f32951584d1b2aa741675a754/hosts",
+  "ShmPath": "",
+  "ResolvConfPath": "/var/lib/docker/containers/b04b0983a7ca351a4dbb79c96470cc6fc5e9b17f32951584d1b2aa741675a754/resolv.conf",
+  "SeccompProfile": "",
+  "NoNewPrivileges": false
+}
